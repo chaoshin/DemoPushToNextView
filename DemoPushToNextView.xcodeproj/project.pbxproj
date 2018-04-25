@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A09144672090C1AF009E6733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09144662090C1AF009E6733 /* AppDelegate.swift */; };
-		A09144692090C1AF009E6733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09144682090C1AF009E6733 /* ViewController.swift */; };
 		A091446C2090C1AF009E6733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A091446A2090C1AF009E6733 /* Main.storyboard */; };
 		A091446E2090C1B0009E6733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A091446D2090C1B0009E6733 /* Assets.xcassets */; };
 		A09144712090C1B0009E6733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A091446F2090C1B0009E6733 /* LaunchScreen.storyboard */; };
+		A091447D2090C44F009E6733 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A091447C2090C44F009E6733 /* Page1ViewController.swift */; };
+		A091447F2090C45D009E6733 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A091447E2090C45D009E6733 /* Page2ViewController.swift */; };
+		A09144812090D930009E6733 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09144802090D930009E6733 /* Page3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A09144632090C1AF009E6733 /* DemoPushToNextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPushToNextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09144662090C1AF009E6733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A09144682090C1AF009E6733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A091446B2090C1AF009E6733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A091446D2090C1B0009E6733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A09144702090C1B0009E6733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A09144722090C1B0009E6733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A091447C2090C44F009E6733 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		A091447E2090C45D009E6733 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		A09144802090D930009E6733 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A09144662090C1AF009E6733 /* AppDelegate.swift */,
-				A09144682090C1AF009E6733 /* ViewController.swift */,
 				A091446A2090C1AF009E6733 /* Main.storyboard */,
 				A091446D2090C1B0009E6733 /* Assets.xcassets */,
 				A091446F2090C1B0009E6733 /* LaunchScreen.storyboard */,
 				A09144722090C1B0009E6733 /* Info.plist */,
+				A091447C2090C44F009E6733 /* Page1ViewController.swift */,
+				A091447E2090C45D009E6733 /* Page2ViewController.swift */,
+				A09144802090D930009E6733 /* Page3ViewController.swift */,
 			);
 			path = DemoPushToNextView;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09144692090C1AF009E6733 /* ViewController.swift in Sources */,
+				A091447D2090C44F009E6733 /* Page1ViewController.swift in Sources */,
 				A09144672090C1AF009E6733 /* AppDelegate.swift in Sources */,
+				A091447F2090C45D009E6733 /* Page2ViewController.swift in Sources */,
+				A09144812090D930009E6733 /* Page3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
